@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.wrapperHand{
+    width: 100%;
+    height: 60vmin;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+}
+.storytextHand{
+    margin-left: 10%;
+    width:30vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+.storytextHand h1{
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-size: 1.5rem
+
+}
+.imageHand{
+    width: 45%;
+    height:45vh;
+    background: url(/src/images/Delicious.png);
+    background-position: center;
+    background-size: cover;
+}
+.btn{ 
+    width: 120px;
+    height: 20px;
+    background-color: #BB7043;
+    padding: 10px;
+    text-align: center;
+
+}

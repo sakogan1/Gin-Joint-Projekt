@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.Mainshop{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #BB7043;
+    align-items: center;
+    
+}
+.centerShop{
+    display: flex;
+    align-items: center;
+}
+.centerShop p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    letter-spacing: 10px;
+    color: #000000;
+
+}
+.centerShop h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: 15px;
+    color: #000000;
+
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.classWrapper{
+    height: 70vmin;
+    padding: 0 5%;
+    background-color:#BB7043;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+.classWrapper p{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+.imagesWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+}
+.imageOne{
+    width: 300px;
+    height: 200px;
+    background: url(/src/images/1.png);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.imageTwo{
+    width: 300px;
+    height: 200px;
+    background: url(/src/images/2.png);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.imageThree{
+    width: 300px;
+    height: 200px;
+    background: url(/src/images/3.png);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.oneText{
+    padding: 25% 0;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.twoText{
+    padding: 25% 0;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+.threeText{
+    padding: 25% 0;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+.txtOne{
+  font-size: 1rem;
+  color:#000;
+}
+.txtOne> h2{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.txtTwo> h2{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.txtThree> h2{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}

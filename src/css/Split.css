@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.splitWrapper{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 1px solid #ffffff;
+}
+.picOne{
+    margin-top: 5%;
+    width: 25%;
+    height:70vh;
+    background: url(/src/images/gin.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+span{
+    width: 1px;
+    height: 105vh;
+    background-color: #ffffff;
+}
+.picTwo{
+    margin-top: 5%;
+    width: 25%;
+    height:70vh;
+    background: url(/src/images/jack.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+.picOneText{
+    padding-top: 70vh;
+    font-size: 1rem;
+    text-align: center;
+}
+.picTwoText{
+    padding-top: 70vh;
+    font-size: 1rem;
+    text-align: center;
+}
+h3{
+    font-size: 1rem;
+}
